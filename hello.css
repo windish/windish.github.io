@@ -1,0 +1,62 @@
+* {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	font-family: 'Space Mono', monospace;
+	font-size: 100%;
+	line-height: 1.5;
+	padding: 2em;
+}
+
+a {
+	color: #0000ff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+b {
+	font-weight: 700;
+}
+
+i {
+	font-style: italic;
+}
+
+p, .hello {
+	margin-bottom: 1em;
+	max-width: 40em;
+}
+
+.bot {
+	font-size: 2rem;
+	line-height: 2rem;
+	height: 2rem;
+	width: 2rem;
+}
+
+.bot_speaks {
+	position: absolute;
+	left: 2rem;
+	top: .2rem;
+}
+
+.arrow {
+	display: inline-block;
+	border-top: .3em solid transparent;
+	border-bottom: .3em solid transparent;
+	border-right: .4em solid #ffee99;
+}
+
+.words {
+	display: inline-block;
+	font-weight: 700;
+	border-radius: .2em;
+	padding: 0 .5em .1em .6em;
+	background-color: #ffee99;
+}
