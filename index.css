@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i');
+
 * {
 	position: relative;
 	padding: 0;
@@ -5,19 +7,13 @@
 	border: 0;
 }
 
-
-
-/* base stiles */
+/* base styles */
 
 body {
-	font-family: 'Space Mono', monospace;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 100%;
 	line-height: 1.5;
 	padding: 1.5em;
-}
-
-.wrapper {
-	max-width: 40em;
 }
 
 a {
@@ -41,16 +37,16 @@ p, .hello {
 }
 
 .bot {
-	font-size: 2rem;
-	line-height: 2rem;
-	height: 2rem;
-	width: 2rem;
+	font-size: 2em;
+	line-height: 1em;
+	height: 1em;
+	width: 1em;
 }
 
 .bot_speaks {
 	position: absolute;
-	left: 2rem;
-	top: .2rem;
+	left: 2em;
+	top: .2em;
 }
 
 .arrow {
@@ -121,12 +117,16 @@ p, .hello {
   }
 }
 
-
-
 /* responsive styles */
 
 @media (min-width: 40em) {
 	body {
-		padding: 3em;
+		font-size: 200%;
+	}
+}
+
+@media (min-width: 80em) {
+	body {
+		font-size: 300%;
 	}
 }
